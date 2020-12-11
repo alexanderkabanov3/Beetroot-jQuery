@@ -1,0 +1,59 @@
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20vh auto;
+    border: 3px solid black;
+    width: 312px;
+}
+
+.resultDiv {
+    width: 300px;
+    height: 20px;
+    border-bottom: 3px solid black;
+    
+    padding: 5px;
+}
+
+.result {
+    text-align: right;
+}
+
+.operators {
+    padding-top: 5px;
+}
+
+.operator {
+    width: 75px;
+    cursor: pointer;
+}
+
+.numbers1234 {
+    padding-top: 5px;
+}
+
+.numbers {
+    width: 75px;
+    cursor: pointer;
+}
+
+.numbers5678 {
+    padding-top: 5px;
+}
+
+.numbers90compare {
+    padding-top: 5px;
+}
+
+.eql {
+    width: 75px;
+    cursor: pointer;
+}
+
+.delete {
+    width: 75px;
+    cursor: pointer;
+}
+

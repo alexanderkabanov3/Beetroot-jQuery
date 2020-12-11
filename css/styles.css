@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../images/backgroundImg.png) no-repeat  center top / cover #292d3e;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+.article {
+    background-color: #212534;
+
+    max-width: 600px;
+    margin: 10vh auto;
+}
+
+.article__head {
+        display: flex;
+        justify-content: space-evenly;
+
+        background-color: #2b3040;
+}
+
+.article__tabs {
+        padding: 30px 0;
+        text-align: center;
+        border-bottom: 3px solid #2b3040;
+        cursor: pointer;
+        transition: 0.3s ease;
+}  
+
+.article__tabs--focus {
+    border-bottom: 3px solid #fff;
+}
+
+.article__tabs--focus .article__icon {
+    fill: white;
+    opacity: 1;
+}
+
+.article__tabs--focus .article__tabText {
+    color: #fff;
+}
+
+
+.article__tabs:first-child {
+            padding-top: 29px;
+        }
+
+.article__tabs:hover .article__tabText{
+            color: #fff;
+            transition: 0.3s ease;
+        }
+
+.article__tabs:hover .article__icon {
+            fill: #fff;
+            opacity: 1;
+            transition: 0.3s ease;
+        }
+
+.article__icon {
+        transition: 0.3s ease;
+    }
+
+
+.article__tabText {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #8d91a3;
+        text-transform: uppercase;
+        margin: 0;
+        padding-top: 15px;
+        transition: 0.3s ease;
+    }
+
+.article__cont {
+        display: flex;
+        justify-content: space-between;
+        
+        max-height: 426px;
+        padding: 60px 40px;
+        transition: 0.3s ease;
+}
+
+.article__contRaitInfo {
+    display: none;
+    text-align: center;
+
+    min-height: 426px;
+    padding: 60px 40px;
+}
+
+.article__buy {
+    min-height: 426px;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    
+    display: none;
+    text-align: center;
+    padding-top: 30%;
+}
+
+.article__contRaitInfoImg {
+    padding-top: 70px;
+    width: 150px;
+} 
+
+.article__leftSide {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+.article__stars {
+        padding-top: 26px;
+    }
+
+.article__star1, .article__star2, .article__star3, .article__star4, .article__star5 {
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.article__star--yellow {
+        fill: #ffdd3f;
+        transition: 0.3s ease;
+}   
+
+.article__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article__rightSide {
+    max-width: 312px;
+}
+
+.article__headingLeft {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    line-height: 20px;
+}
+
+.article__headingBottom {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+.article__rightSideText {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #b7bacd;
+    line-height: 22px;
+    padding-top: 38px;
+}
+
+.article__rightSideBottom {
+     display: flex;
+     justify-content: space-between;
+
+     padding-top: 60px;
+}
+
+.article__priceTop {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #fedc3f;
+    line-height: 20px;
+}
+
+.article__priceBottom {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    line-height: 20px;
+    padding-top: 12px;
+}
+
+.article__button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #13e28d;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 20px 34px;
+    transition: 0.3s ease;
+}
+
+.article__button:hover {
+    opacity: 0.7;
+    transition: 0.3s ease;
+}
+
+.article__headingRait {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    left: -54px;
+    top: -29px;
+}
+
+.article__headingRait--tab2 {
+    font-size: 50px;
+    left: 0;
+    top: -109px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    
+}
